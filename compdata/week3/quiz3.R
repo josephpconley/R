@@ -2,6 +2,8 @@
 ?file
 ?axis
 ?points
+?gzfile
+
 
 ?jpeg
 ?windows
@@ -12,11 +14,14 @@
 ?splom
 ?hist
 ?bwplot
+?coplot
+?barchart
 
 ?barplot
 ?plot
 ?boxplot
 ?text
+?mtext
 
 ?par
 
@@ -25,8 +30,12 @@ attach(mtcars)
 
 library(nlme)
 library(lattice)
-xyplot(weight ~ Time | Diet, BodyWeight)
-?xyplot
+g <- xyplot(weight ~ Time | Diet, BodyWeight)
+g
+
+
+class(g)
+?panel.lmline
 
 ?ltext
 
