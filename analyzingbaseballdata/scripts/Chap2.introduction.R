@@ -20,6 +20,7 @@ Win.Pct
 
 Year <- seq(1946, 1952)
 Year <- 1946 : 1952
+Year
 
 Age <- Year - 1921
 plot(Age, Win.Pct)
