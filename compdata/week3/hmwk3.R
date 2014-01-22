@@ -105,3 +105,6 @@ joe[["heart attack"]] <- 11
 joe[["heart failure"]] <- 17
 joe[["pneumonia"]] <- 23
 
+
+#submit
+source("http://spark-public.s3.amazonaws.com/compdata/scripts/submitscript.R")
