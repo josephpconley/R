@@ -78,4 +78,8 @@ xyplot(death ~ npatient | owner, xlab="Number of Patients Seen", ylab="30-day De
       })
 
 #5)
+outcome <- read.csv("outcome-of-care-measures.csv", colClasses = "character")
+table(outcome$State)
+
+
 
