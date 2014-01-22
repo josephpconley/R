@@ -1,4 +1,5 @@
 #hmwk3 - Medicare
+#1)
 setwd("compdata/week3")
 
 outcome <- read.csv("outcome-of-care-measures.csv", colClasses = "character")
@@ -13,7 +14,7 @@ outcome[, 23] <- as.numeric(outcome[, 23])
 hist(outcome[, 11], xlab="30-day Death Rate", main="Heart Attack 30-day Death Rate")
 
 
-#obtain 30-day death rate from heart attack, heart failure, pneumonia
+#2) obtain 30-day death rate from heart attack, heart failure, pneumonia
 #11
 summary(outcome$Hospital.30.Day.Death..Mortality..Rates.from.Heart.Attack)
 #17
@@ -36,3 +37,45 @@ abline(v = median(outcome[,17], na.rm=TRUE))
 abline(v = median(outcome[,23], na.rm=TRUE))
 abline(v = c(10,15,20))
 ?abline
+
+
+#3)
+table(outcome$State)
+states <- with(outcome, table(outcome$State))
+validStates <- states[states > 20]
+validStates
+?table
+?array
+
+class(outcome$State)
+
+outcome2 <- subset(outcome, !is.na(validStates[outcome$State]))
+table(outcome2$State)
+
+par(mfrow = c(1, 1), las = 2)
+death <- outcome2[, 11]
+state <- outcome2$State
+boxplot(death ~ state, ylab = "30-day Death Rate", main = "Heart Attack 30-day Death Rate by State")
+?boxplot
+?par
+
+#4)
+outcome <- read.csv("outcome-of-care-measures.csv", colClasses = "character")
+hospital <- read.csv("hospital-data.csv", colClasses = "character")
+outcome.hospital <- merge(outcome, hospital, by = "Provider.Number")
+
+death <- as.numeric(outcome.hospital[, 11]) ## Heart attack outcome
+npatient <- as.numeric(outcome.hospital[, 15])
+owner <- factor(outcome.hospital$Hospital.Ownership)
+
+library(lattice)
+?xyplot
+xyplot(death ~ npatient | owner, xlab="Number of Patients Seen", ylab="30-day Death Rate",
+       main="Heart Attach 30-day Death Rate by Ownership",
+       panel = function(x,y) { 
+         panel.xyplot(x,y)
+         panel.lmline(x,y)
+      })
+
+#5)
+
