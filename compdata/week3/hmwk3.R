@@ -77,9 +77,31 @@ xyplot(death ~ npatient | owner, xlab="Number of Patients Seen", ylab="30-day De
          panel.lmline(x,y)
       })
 
-#5)
+#5 best.R)
 outcome <- read.csv("outcome-of-care-measures.csv", colClasses = "character")
 table(outcome$State)
 
+best("MD", "pneumonia")
 
+
+
+setwd("compdata/week3")
+outcomeData <- read.csv("outcome-of-care-measures.csv", colClasses = "character")
+
+outcomeData[, 11] <- as.numeric(outcomeData[, 11])
+outcomeData[, 17] <- as.numeric(outcomeData[, 17])
+outcomeData[, 23] <- as.numeric(outcomeData[, 23])
+
+nrow(outcomeData)
+state <- "PA"
+stateOutcomes = subset(outcomeData, outcomeData$State == state & !is.na(outcomeData[, 11]))
+stateOutcomes[,11]
+stateOutcomes$Hospital.Name
+best <- subset(stateOutcomes, stateOutcomes[, 11] == min(stateOutcomes[, 11], na.rm = TRUE))
+best$Hospital.Name
+
+joe <- new.env(hash=T, parent=emptyenv())
+joe[["heart attack"]] <- 11
+joe[["heart failure"]] <- 17
+joe[["pneumonia"]] <- 23
 
