@@ -1,0 +1,151 @@
+fAge	mAge	weeks	premature	visits	gained	weight	sexBaby	smoke
+31	30	39	full term	13	1	6.88	male	smoker
+34	36	39	full term	5	35	7.69	male	nonsmoker
+36	35	40	full term	12	29	8.88	male	nonsmoker
+41	40	40	full term	13	30	9	female	nonsmoker
+42	37	40	full term	NA	10	7.94	male	nonsmoker
+37	28	40	full term	12	35	8.25	male	smoker
+35	35	28	premie	6	29	1.63	female	nonsmoker
+28	21	35	premie	9	15	5.5	female	smoker
+22	20	32	premie	5	40	2.69	male	smoker
+36	25	40	full term	13	34	8.75	female	nonsmoker
+27	19	32	premie	5	32	6.5	female	nonsmoker
+35	34	40	full term	15	20	7.44	male	nonsmoker
+25	19	41	full term	13	47	8.38	male	smoker
+36	33	38	full term	10	20	6	male	nonsmoker
+27	27	39	full term	11	5	7.81	male	smoker
+24	23	38	full term	13	22	7.81	female	nonsmoker
+33	40	36	premie	13	23	7.81	female	nonsmoker
+NA	23	40	full term	10	30	7.31	male	nonsmoker
+28	27	33	premie	6	18	4.75	male	smoker
+25	22	34	premie	10	20	3.75	male	nonsmoker
+35	31	37	full term	12	37	8.06	female	nonsmoker
+NA	38	32	premie	10	16	2.19	female	smoker
+NA	26	42	full term	15	30	7.38	male	smoker
+29	30	39	full term	10	43	6.88	female	nonsmoker
+24	22	40	full term	16	34	6.88	female	smoker
+25	25	38	full term	19	13	7.63	female	nonsmoker
+34	33	43	full term	13	25	9.13	male	smoker
+NA	20	39	full term	15	70	7.38	female	smoker
+NA	28	37	full term	13	35	8.25	female	nonsmoker
+28	26	39	full term	15	45	7.19	female	nonsmoker
+27	27	39	full term	14	31	7.56	female	nonsmoker
+NA	21	36	premie	15	10	6.81	male	nonsmoker
+NA	24	38	full term	16	50	3.75	female	nonsmoker
+NA	25	38	full term	11	27	8.75	male	nonsmoker
+33	30	37	full term	10	57	6.56	male	nonsmoker
+27	25	40	full term	11	26	7.44	male	nonsmoker
+NA	25	39	full term	5	37	6	female	smoker
+29	21	39	full term	18	13	7.75	female	nonsmoker
+33	30	39	full term	9	42	7.81	male	smoker
+NA	24	39	full term	6	30	6.13	female	smoker
+NA	23	42	full term	9	22	8.81	male	nonsmoker
+29	26	39	full term	14	65	7.75	female	smoker
+35	28	38	full term	10	25	6.88	male	nonsmoker
+27	22	35	premie	12	30	4.69	male	nonsmoker
+33	25	35	premie	15	18	6.75	male	nonsmoker
+27	22	39	full term	12	30	6.94	female	smoker
+30	25	35	premie	15	40	4.5	male	smoker
+NA	23	44	full term	4	55	8.13	female	smoker
+21	22	40	full term	10	85	5.81	male	nonsmoker
+NA	32	37	full term	8	30	6.81	female	nonsmoker
+34	34	38	full term	11	23	7.25	male	nonsmoker
+22	22	39	full term	14	29	7.19	female	nonsmoker
+35	31	40	full term	10	45	8	female	nonsmoker
+25	26	39	full term	12	40	8.38	male	nonsmoker
+22	26	39	full term	12	31	7.31	male	smoker
+22	34	39	full term	12	57	9.69	male	nonsmoker
+40	40	38	full term	13	38	7.31	male	nonsmoker
+24	18	37	full term	8	25	6.19	male	smoker
+42	38	41	full term	15	35	10.13	female	nonsmoker
+30	28	39	full term	13	0	7.5	female	nonsmoker
+35	31	40	full term	15	32	6.25	male	nonsmoker
+39	27	39	full term	12	58	8.56	male	smoker
+28	18	41	full term	10	11	6.5	female	nonsmoker
+29	29	44	full term	12	51	8.5	male	nonsmoker
+28	24	39	full term	11	NA	7.5	female	nonsmoker
+33	35	38	full term	10	20	6.44	female	smoker
+29	31	36	premie	8	42	5.94	male	smoker
+19	20	34	premie	13	6	4.5	male	nonsmoker
+NA	19	39	full term	11	48	8.38	female	smoker
+43	31	41	full term	5	20	7.06	female	smoker
+33	27	41	full term	15	38	7	male	smoker
+27	21	41	full term	8	26	5.94	female	nonsmoker
+29	30	39	full term	15	44	6.38	male	smoker
+NA	20	37	full term	10	26	5.38	female	smoker
+NA	16	40	full term	4	12	6	female	nonsmoker
+34	34	37	full term	17	35	6.88	female	nonsmoker
+26	26	41	full term	10	68	9.31	male	nonsmoker
+22	22	40	full term	13	0	6.5	male	smoker
+31	32	38	full term	6	27	6.75	female	nonsmoker
+39	37	38	full term	5	45	5.13	male	nonsmoker
+NA	37	38	full term	3	NA	7.5	male	smoker
+34	36	38	full term	4	25	6.88	male	smoker
+NA	32	33	premie	10	60	5.06	male	nonsmoker
+30	24	41	full term	12	40	8.13	male	smoker
+30	29	39	full term	14	30	5.38	male	nonsmoker
+27	24	40	full term	11	8	7.69	female	nonsmoker
+NA	23	41	full term	14	19	7.88	female	nonsmoker
+24	21	41	full term	13	40	7.88	female	nonsmoker
+34	29	39	full term	15	24	8.25	female	nonsmoker
+32	25	41	full term	13	50	7.75	female	nonsmoker
+26	25	40	full term	10	25	7	male	nonsmoker
+NA	41	33	premie	13	0	5.69	female	nonsmoker
+26	23	42	full term	14	23	6.75	male	nonsmoker
+25	34	41	full term	10	35	8.19	female	nonsmoker
+24	19	40	full term	12	36	8.19	male	nonsmoker
+35	31	39	full term	15	35	7.44	male	nonsmoker
+35	36	38	full term	18	37	8.25	male	nonsmoker
+28	25	40	full term	7	31	9.19	male	nonsmoker
+34	31	40	full term	14	44	7.5	female	nonsmoker
+35	33	40	full term	16	30	6.81	male	nonsmoker
+30	25	40	full term	12	35	8.13	male	nonsmoker
+26	20	41	full term	16	21	6.31	female	smoker
+24	22	39	full term	12	32	8.38	male	nonsmoker
+NA	26	38	full term	14	40	8	male	smoker
+34	27	39	full term	16	24	8.88	male	smoker
+NA	20	40	full term	17	39	9.06	male	smoker
+26	17	38	full term	11	30	9.5	female	nonsmoker
+NA	18	40	full term	12	13	8.75	male	nonsmoker
+34	33	39	full term	10	40	8.06	male	nonsmoker
+20	23	39	full term	15	56	7.31	male	smoker
+21	16	38	full term	15	75	7.56	female	smoker
+22	20	38	full term	8	45	7.44	female	nonsmoker
+32	35	38	full term	17	55	7.5	female	nonsmoker
+37	35	40	full term	16	32	7.31	female	nonsmoker
+36	30	39	full term	11	21	7.88	male	nonsmoker
+31	23	44	full term	14	40	6.81	male	nonsmoker
+20	20	37	full term	12	22	5.94	female	nonsmoker
+46	39	38	full term	10	35	6.75	male	smoker
+23	25	37	full term	8	53	7.69	female	nonsmoker
+28	21	38	full term	12	40	7.38	male	nonsmoker
+25	19	40	full term	16	37	7.94	male	smoker
+NA	24	39	full term	8	22	5	female	smoker
+17	20	39	full term	16	35	5.63	female	nonsmoker
+27	23	43	full term	15	30	7.81	female	nonsmoker
+33	27	41	full term	14	58	8	male	nonsmoker
+NA	18	33	premie	7	40	1.69	male	smoker
+26	23	38	full term	5	28	7.19	female	nonsmoker
+37	33	36	premie	11	15	6.31	male	smoker
+32	24	39	full term	8	23	6.88	female	smoker
+24	22	42	full term	7	21	6.5	female	nonsmoker
+17	17	29	premie	4	10	2.63	female	nonsmoker
+18	15	37	full term	12	76	8.44	male	nonsmoker
+24	20	41	full term	16	35	7.19	male	nonsmoker
+NA	21	41	full term	12	32	8.38	male	nonsmoker
+20	17	40	full term	17	38	7.19	male	nonsmoker
+25	22	39	full term	12	27	6.31	female	smoker
+33	33	38	full term	15	60	6.56	male	nonsmoker
+23	21	40	full term	15	38	7.63	female	nonsmoker
+36	28	39	full term	15	40	8.38	male	nonsmoker
+31	29	41	full term	12	30	7.69	male	smoker
+NA	23	36	premie	2	27	5.88	female	nonsmoker
+NA	19	39	full term	7	0	7.31	male	smoker
+47	24	40	full term	12	46	6.88	male	nonsmoker
+NA	35	37	full term	10	25	5.63	male	smoker
+30	29	38	full term	17	55	7	female	nonsmoker
+NA	17	40	full term	15	20	7.63	female	nonsmoker
+NA	37	39	full term	5	20	8.19	female	smoker
+31	32	37	full term	12	22	6	female	nonsmoker
+33	28	41	full term	10	30	8.13	male	nonsmoker
+38	37	26	premie	5	25	3.63	male	nonsmoker

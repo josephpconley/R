@@ -1,0 +1,223 @@
+country	infMortRate
+Afghanistan	121.63
+Niger	109.98
+Mali	109.08
+Somalia	103.72
+Central African Republic	97.17
+Guinea-Bissau	94.4
+Chad	93.61
+Angola	83.53
+Burkina Faso	79.84
+Malawi	79.02
+Mozambique	76.85
+Sierra Leone	76.64
+Congo, Democratic Republic of the	76.63
+Ethiopia	75.29
+Equatorial Guinea	75.18
+Nigeria	74.36
+Congo, Republic of the	74.22
+Liberia	72.71
+South Sudan	71.83
+Gambia, The	69.58
+Comoros	68.97
+Tanzania	65.74
+Zambia	64.61
+Cote d'Ivoire	63.2
+Rwanda	62.51
+Pakistan	61.27
+Uganda	61.22
+Burundi	60.32
+Benin	60.03
+Cameroon	59.7
+Swaziland	59.57
+Guinea	59.04
+Western Sahara	58.96
+Mauritania	58.93
+Laos	57.77
+Sudan	55.63
+Senegal	55.16
+Cambodia	54.08
+Yemen	53.5
+Lesotho	53.44
+Djibouti	53.31
+Haiti	52.44
+Sao Tome and Principe	51.83
+Madagascar	50.09
+Togo	49.87
+Gabon	49
+Bangladesh	48.99
+Burma	47.74
+Ghana	47.26
+India	46.07
+Namibia	45.61
+Vanuatu	45.57
+Kenya	43.61
+Nepal	43.13
+South Africa	42.67
+Bhutan	42.17
+Papua New Guinea	42.05
+Iran	41.11
+Bolivia	40.94
+Turkmenistan	40.89
+Eritrea	40.34
+Iraq	40.25
+Kiribati	37.68
+Tajikistan	37.33
+Timor-Leste	36.78
+Mongolia	36
+Guyana	35.59
+Tuvalu	33.55
+Kyrgyzstan	30.78
+Suriname	28.94
+Azerbaijan	28.76
+Zimbabwe	28.23
+Indonesia	26.99
+Trinidad and Tobago	26.73
+Morocco	26.49
+Maldives	26.46
+Korea, North	26.21
+Cape Verde	26.02
+Guatemala	25.16
+Tunisia	24.98
+Algeria	24.9
+Egypt	24.23
+Micronesia, Federated States of	23.51
+Turkey	23.07
+Kazakhstan	23.06
+Marshall Islands	22.93
+Paraguay	22.24
+Nicaragua	21.86
+Samoa	21.85
+Peru	21.5
+Belize	21.37
+Dominican Republic	21.3
+Uzbekistan	21.2
+Brazil	20.5
+Vietnam	20.24
+Venezuela	20.18
+Honduras	19.85
+El Salvador	19.66
+Libya	19.34
+Ecuador	19.06
+Philippines	18.75
+Armenia	18.21
+Solomon Islands	17.25
+Mexico	16.77
+Gaza Strip	16.55
+Bulgaria	16.13
+Colombia	15.92
+Thailand	15.9
+Jordan	15.83
+Saint Helena, Ascension, and Tristan da Cunha	15.8
+China	15.62
+Saudi Arabia	15.61
+Lebanon	15.32
+Cook Islands	15.3
+Syria	15.12
+Oman	14.95
+Montserrat	14.69
+Georgia	14.68
+Malaysia	14.57
+West Bank	14.47
+British Virgin Islands	14.43
+Jamaica	14.3
+Antigua and Barbuda	14.17
+Albania	14.12
+Saint Vincent and the Grenadines	13.86
+Moldova	13.65
+Tonga	13.21
+Bahamas, The	13.09
+Aruba	12.51
+Saint Lucia	12.39
+Dominica	12.38
+Palau	12.1
+Barbados	11.63
+Turks and Caicos Islands	11.63
+United Arab Emirates	11.59
+Seychelles	11.35
+Panama	11.32
+Mauritius	11.2
+Brunei	11.15
+Grenada	11.12
+Fiji	10.73
+Romania	10.73
+Argentina	10.52
+Botswana	10.49
+Bahrain	10.2
+Russia	9.88
+Greenland	9.83
+Sri Lanka	9.47
+Uruguay	9.44
+Saint Kitts and Nevis	9.43
+American Samoa	9.42
+Costa Rica	9.2
+Cyprus	9.05
+Nauru	8.51
+Bosnia and Herzegovina	8.47
+Ukraine	8.38
+Macedonia	8.32
+Latvia	8.24
+Puerto Rico	7.9
+Kuwait	7.87
+Chile	7.36
+Saint Pierre and Miquelon	7.29
+Virgin Islands	7.09
+Estonia	6.94
+Qatar	6.81
+Gibraltar	6.55
+Cayman Islands	6.49
+Slovakia	6.47
+Poland	6.42
+Serbia	6.4
+Lithuania	6.18
+Belarus	6.16
+Croatia	6.06
+United States	5.98
+FaroeIslands	5.94
+NorthernMariana Islands	5.69
+New Caledonia	5.62
+Hungary	5.24
+Taiwan	5.1
+Greece	4.92
+French Polynesia	4.88
+Canada	4.85
+Cuba	4.83
+New Zealand	4.72
+San Marino	4.65
+Wallis and Futuna	4.61
+Portugal	4.6
+United Kingdom	4.56
+Australia	4.55
+European Union	4.49
+Liechtenstein	4.39
+Luxembourg	4.39
+Belgium	4.28
+Isle of Man	4.27
+Austria	4.26
+Denmark	4.19
+Slovenia	4.12
+Korea, South	4.08
+Israel	4.07
+Switzerland	4.03
+Jersey	3.94
+Ireland	3.81
+Andorra	3.76
+Netherlands	3.73
+Czech Republic	3.7
+Malta	3.65
+Guernsey	3.52
+Germany	3.51
+Norway	3.5
+Anguilla	3.44
+Finland	3.4
+France	3.37
+Spain	3.37
+Italy	3.36
+Iceland	3.18
+Macau	3.17
+Hong Kong	2.9
+Sweden	2.74
+Singapore	2.65
+Bermuda	2.47
+Japan	2.21
+Monaco	1.8

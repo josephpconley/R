@@ -10,12 +10,14 @@ odds$payoff <- as.numeric(odds$payoff)
 wins <- subset(odds, won=="true")
 max(wins$payoff)
 wins.best <- wins[rev(order(wins$payoff)),]
+head(wins.best)
 
 #field stats
 field <- subset(odds, grepl("Field", name) == 1)
 field$result <- with(field, ifelse(grepl("true", won), 100 * payoff, -100))
-
 field.wins <- subset(field, grepl("true", won) == 1)
+field.wins.best <- field.wins[rev(order(field.wins$payoff)),]
+head(field.wins.best)
 
 #historical winning probability of the field
 nrow(field.wins)/nrow(field)

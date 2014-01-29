@@ -8,6 +8,7 @@
 
 # Section 4.2  The Teams Table in Lahman's Database
 
+getwd()
 teams <- read.csv("lahman/teams.csv")
 tail(teams)
 

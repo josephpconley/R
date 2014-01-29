@@ -15,8 +15,7 @@ fields <- read.csv("fields.csv")
 names(data2011) <- fields[, "Header"]
 
 data2011$RUNS <- with(data2011, AWAY_SCORE_CT + HOME_SCORE_CT)
-data2011$HALF.INNING <- with(data2011, 
-                            paste(GAME_ID, INN_CT, BAT_HOME_ID))
+data2011$HALF.INNING <- with(data2011, paste(GAME_ID, INN_CT, BAT_HOME_ID))
 
 data2011$RUNS.SCORED <- with(data2011, (BAT_DEST_ID > 3) +
   (RUN1_DEST_ID > 3) + (RUN2_DEST_ID > 3) + (RUN3_DEST_ID > 3))

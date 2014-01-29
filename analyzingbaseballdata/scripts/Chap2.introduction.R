@@ -124,6 +124,7 @@ plot(hr.rates(Age, HR, AB))
 # Section 2.6 Reading and Writing Data in R
 
 getwd()
+setwd("C:/workspace/joec/R/analyzingbaseballdata/data")
 
 spahn <- read.csv("spahn.csv")
 
@@ -133,7 +134,7 @@ Age <- 19 : 29
 HR.Rates <- hr.rates(Age, HR, AB)
 Mantle <- cbind(Age, HR, AB, Rates=HR.Rates$y)
 
-write.csv(Mantle, "..\output\mantle.csv", row.names=FALSE)
+write.csv(Mantle, "../output/mantle.csv", row.names=FALSE)
 
 # Section 2.7 Data Frames
 

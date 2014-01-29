@@ -1,0 +1,10 @@
+advertising <- c(1,3,5,4,2,5,3,2)
+sales <- c(30, 40, 40, 50, 35, 50, 35, 25)
+plot(advertising, sales)
+
+scores <- c(3, 12, 8, 2)
+labels <- c("Doubles", "Bogeys", "Pars", "Birdies")
+pct <- round(scores/sum(scores) * 100)
+labels <- paste(labels, pct)
+labels <- paste(labels, "%", sep="")
+pie(scores, labels = labels, col=rainbow(length(labels)), main="Golf Scores")
