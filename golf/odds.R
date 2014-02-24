@@ -32,5 +32,10 @@ nrow(field.wins)/nrow(field)
 field$bet <- with(field, ifelse(grepl("true", won), 25 * payoff, -25))
 sum(field$bet)
 
+summary(field$payoff)
+
 #average odds for the field
 mean(field$payoff)
+
+#WGC Match Play
+wgc <- subset(odds, grepl("WGC", tournament) == 1)
