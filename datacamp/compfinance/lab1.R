@@ -1,3 +1,5 @@
+#Returns
+
 # Assign the url to the csv file
 data_url = "http://faculty.washington.edu/ezivot/econ424/sbuxPrices.csv"
 # Load the data frame using read.csv
@@ -16,15 +18,11 @@ sbux_df$Adj.Close[1:5]
 sbux_df$Adj.Close[1:5, drop=FALSE]
 closing_prices = sbux_df[, 2, drop=FALSE] 
 
-# The sbux_df data frame is already loaded in your work space
-
 # Find indices associated with the dates 3/1/1994 and 3/1/1995
 index_1 = which(sbux_df$Date == "3/1/1994")
 index_2 = which(sbux_df$Date == "3/1/1995")
 # Extract prices between 3/1/1994 and 3/1/1995
 some_prices = sbux_df[index_1:index_2, 2] 
-
-# The sbux_df data frame is already loaded in your work space
 
 # Create a new data frame containing the price data with the dates as the row names
 sbux_prices_df = sbux_df[, "Adj.Close", drop=FALSE]
@@ -37,12 +35,10 @@ sbux_prices_df["3/1/1994", 1]
 price_1 = sbux_prices_df["3/1/1994", 1]
 price_2 = sbux_prices_df["3/1/1995", 1]
 
-# Now add all relevant arguments to the plot function below to get a nicer
-# plot
+# Now add all relevant arguments to the plot function below to get a nicer plot
 plot(sbux_df$Adj.Close, type="l", col="blue", lwd=2, ylab="Adjusted close", main="Monthly closing price of SBUX")
 legend(x='topleft',legend='SBUX', lty=1, lwd=2, col='blue')
 
-# The sbux_df data frame is already loaded in your work space
 sbux_prices_df = sbux_df[, "Adj.Close", drop = FALSE]
 
 # Denote n the number of time periods
@@ -92,7 +88,3 @@ sbux_fv = cumprod(sbux_gret)
 head(sbux_fv)
 # Plot the evolution of the $1 invested in SBUX as a function of time
 plot(sbux_fv, type = "l", col = "blue", lwd = 2, ylab = "Dollars", main = "FV of $1 invested in SBUX")
-
-#QUIZ
-
-
