@@ -24,7 +24,8 @@ reviews <- data.frame(scores, sources, comments)
 shining.list <- list(moviename = "The Shining", actors = actors, reviews = reviews)
 
 # We forgot something: Add the year to shining.list ! Add your code below:
-
+# Create named list (with the year of the movie)
+shining.list <- list(moviename = "The Shining", year = 1980, actors = actors, reviews = reviews)
 
 # Have a look at shining.list. Remember str()?
 str(shining.list)
